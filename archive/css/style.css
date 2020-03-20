@@ -1,0 +1,149 @@
+/*FONTS*/
+@font-face {
+  font-family: 'TT Commons Regular';
+  src: url('../fonts/TTCommons-Regular.woff');
+}
+@font-face {
+  font-family: 'TT Commons Medium';
+  src: url('../fonts/TTCommons-Medium.woff');
+}
+@font-face {
+  font-family: 'TT Commons Bold';
+  src: url('../fonts/TTCommons-Bold.woff');
+}
+
+body {
+  background: #E5E5E5;
+  padding-top: 53px;
+}
+
+h1 {
+  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-size: 64px;
+  line-height: 70px;
+  color: #FFFFFF;
+}
+h2 {
+  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-size: 42px;
+  line-height: 48px;
+  color: #061058;
+}
+h3 {
+  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-size: 34px;
+  line-height: 40px;
+  color: #061058;
+}
+h4 {
+  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  color: #061058;
+}
+h5 {
+  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #061058;
+}
+h6 {
+  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  color: #061058;
+}
+p {
+  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #212B36;
+}
+
+/*UNIVERSAL*/
+.gradient p {
+  color: #FFFFFF;
+}
+.heading-light{
+  color:white;
+}
+
+/*NAVBAR*/
+.navbar{
+  background-color: white;
+}
+.navbar li {
+  font-family: 'TT Commons Medium', Arial, sans-serif;
+  font-size: 14px;
+}
+.navbar li a {
+  color: #212B36;
+}
+.navbar-btn {
+  display: inline-block;
+  color: white !important;
+  background-color: #064EFE;
+  padding-top:10px;
+  padding-right:30px;
+  padding-left:30px;
+  padding-bottom:5px;
+}
+.navbar .navbar-toggler .icon-bar {
+    color: pink !important;
+}
+
+/*MASTHEAD*/
+.gradient{
+  background: linear-gradient(235.22deg, #061058 0%, #3B4ED3 100%);
+}
+.masthead-btn {
+  font-family: 'TT Commons Medium', Arial, sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  color: #064EFE;
+  background-color: #FFFFFF;
+  padding: 8px 26px;
+}
+.masthead-btn-transparent {
+  font-family: 'TT Commons Medium', Arial, sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 100px;
+  padding: 8px 26px;
+}
+.triangle-svg {
+  bottom: 0;
+  width: 100%;
+  height: 14vw;
+  /* set height to pixels if you want angle to change with screen width */
+}
+
+.masthead-icon {
+  width: 30px;
+  height: 30px;
+}
+
+/*WHAT IS INTERPRETABILITY IN AI*/
+.interpret-container{
+  position: relative;
+  z-index: 5000;
+  margin-top: -100px;
+}
+.inner-box {
+  background-color: white;
+}
+
+/*FOOTER*/
+.footer-nav {
+  list-style: none;
+  padding: 0px;
+}
+.footer-nav .nav-link {
+  padding: 8px 0px 8px 0px;
+}
+.page-footer {
+  background-color: #061058;
+}
