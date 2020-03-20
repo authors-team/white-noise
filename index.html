@@ -14,7 +14,7 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
+    <div class="container pt-3 pb-3">
       <img class="img-fluid nav-logo" src="images/Nav-Logo.png" alt="">
       <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon icon-bar"></span>
@@ -41,12 +41,11 @@
   </nav><!-- Navigation -->
 
   <!-- Page Content -->
-  <div class="container-fluid gradient diagonal understand-your-models">
-    <div class="container pt-lg-5 pb-lg-5">
-
-      <div class="row align-items-center pt-lg-5">
+  <div class="container-fluid gradient">
+    <div class="container">
+      <div class="use-data row align-items-center">
         <div class="col-sm-12 col-lg-6 order-lg-1 text-centerpx-5">
-          <img class="img-fluid rounded" src="images/Main Graphic.png" alt="">
+          <img class="img-fluid" src="images/Main Graphic.png" alt="">
         </div>
         <div class="col-sm-12 col-lg-6 order-lg-0">
           <h1 class="text-center text-md-left">Use Data. Preserve Privacy.</h1>
@@ -103,7 +102,7 @@
 
 
         <div class="col-sm-12 text-center">
-          <p class="pb-5 dark">Original DP Paper</p>
+          <p class="dark">Original DP Paper</p>
           <p class="dark">These parameters are precisely calibrated by the system to offer strong assurances against reidentification, record reconstruction and membership attacks.</p>
         </div>
 
@@ -143,22 +142,22 @@
       <div class="row ">
         <div class="col-md-6 mb-5">
           <img class="img-fluid mx-auto interpretml-icons mb-3" src="images/researchers-icon.png" alt="">
-          <h4 class="text-center pb-3">Native Runtime Library</h4>
+          <h4 class="text-center light pb-3">Native Runtime Library</h4>
           <p class="text-center text-lg-left">Native implementation of several mature differential privacy mechanisms and algorithms, suitable for consumption from software written in C, C++, Python, R, and other languages.</p>
         </div>
         <div class="col-md-6 mb-5">
           <img class="img-fluid mx-auto interpretml-icons mb-3" src="images/data-scientists-icon.png" alt="">
-          <h4 class="text-center pb-3">Data Access SDK</h4>
+          <h4 class="text-center light pb-3">Data Access SDK</h4>
           <p class="text-center text-lg-left">Data access layer supporting differentially private SQL against various engines, including Spark, SQL Server, Postgres, Presto, and CSV files</p>
         </div>
         <div class="col-md-6 mb-5">
           <img class="img-fluid mx-auto interpretml-icons mb-3" src="images/legal-auditors-icon.png" alt="">
-          <h4 class="text-center pb-3">Execution Service</h4>
+          <h4 class="text-center light pb-3">Execution Service</h4>
           <p class="text-center text-lg-left">A reference implementation of an asynchronous service that can compose multiple different types of request over the same data source, while tracking total privacy spend.</p>
         </div>
         <div class="col-md-6 mb-5 text-center">
           <img class="img-fluid mx-auto interpretml-icons mb-3" src="images/business-decisions-icon.png" alt="">
-          <h4 class="text-center pb-3">Stochastic Evaluator</h4>
+          <h4 class="text-center light pb-3">Stochastic Evaluator</h4>
           <p class="text-center text-lg-left">A testing harness that can stress-test any prospective differential privacy algorithm as a “black box” and find violations of privacy.</p>
         </div>
       </div><!-- /.row -->
@@ -171,7 +170,7 @@
       <div class="row justify-content-lg-center">
 
         <div class="col-sm-12 col-lg-8 text-center">
-          <h2 class="">Preserving Privacy During Data Use</h2>
+          <h2>Preserving Privacy During Data Use</h2>
         </div>
       </div>
 
@@ -181,7 +180,7 @@
         </div>
 
         <div class="col-sm-6 col-lg-4 align-self-center order-sm-1">
-          <h4 class="text-center text-lg-left">Differentially-Private Analytics</h4>
+          <h3 class="text-center text-lg-left">Differentially-Private Analytics</h3>
           <p class="dark">Support for many analytics applications including OLAP, BI, and Data ScienceSupport for many analytics applications including OLAP, BI, and Data Science</p>
           <li class="img-fluid check-icon"> Differentially private SQL built for various engines, including Spark, SQL Server, Postgres, Presto, and CSV files</li>
           <li class="img-fluid check-icon">Support for many commonly used mathematical operators including Gaussian, Laplace, and Geometric algorithms, and common statistics such as Count, Sum, Mean, Covariance.</li>
@@ -197,7 +196,7 @@
         </div>
 
         <div class="col-sm-6 col-lg-4 align-self-center">
-          <h4 class="text-center text-lg-left">Differentially-Private Machine Learning</h4>
+          <h3 class="text-center text-lg-left">Differentially-Private Machine Learning</h3>
           <p class="dark">Support for training differentially-private machine learning models</p>
           <li class="img-fluid check-icon">Example Integrations with Azure Machine Learning and ML Flow to demonstrate how to use differential privacy in the machine learning process</li>
           <li class="img-fluid check-icon">Built-in support for training simple machine learning models such as linear and logistic regression and compatible with open-source training libraries such TensorFlow Privacy</li>
@@ -226,7 +225,7 @@
         <div class="col-sm-12 col-lg-8 text-center">
           <h2 class="">Contribute to White Noise</h2>
           <p class="dark">WhiteNoise is a community-driven open source toolkit that is built on differential privacy research’s best practices and principles to enable everyone to leverage state-of-the-art differential privacy techniques to enable privacy-preserving data use in real applications.</p>
-          <h2 class="">Research Community</h2>
+          <h4 class="">Research Community</h4>
           <p class="dark">WhiteNoise is designed for the research community to contribute new differential privacy algorithms, mechanisms and user-interfaces to experiment, learn and evolve state-of-the-art of privacy (and the toolkit) together.</p>
         </div>
       </div>
@@ -239,7 +238,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <h1>Support</h1>
+            <h4 class="light">Support</h4>
             <p>We would like to acknowledge the support of the Sloan Foundation, US Census Bureau, National Science Foundation, and Simons Foundation in this project.</p>
           </div>
         </div>
@@ -250,22 +249,22 @@
           <div class="col-sm-12 col-md-10 d-flex align-items-center justify-content-md-end flex-column flex-md-row">
               <div class="mr-md-4">
                 <a class="nav-link" href="https://microsoft.com">
-                  <p class="mb-md-0 dark">Link 1</p>
+                  <p class="mb-md-0">Link 1</p>
                 </a>
               </div>
               <div class="mr-md-4">
                 <a class="nav-link" href="https://microsoft.com">
-                  <p class="mb-md-0 dark">Link 2</p>
+                  <p class="mb-md-0">Link 2</p>
                 </a>
               </div>
               <div class="mr-md-4">
                 <a class="nav-link" href="https://microsoft.com">
-                  <p class="mb-md-0 dark">Link 3</p>
+                  <p class="mb-md-0">Link 3</p>
                 </a>
               </div>
               <div class="mr-md-4">
                 <a class="nav-link" href="https://microsoft.com">
-                  <p class="mb-md-0 dark">Link 4</p>
+                  <p class="mb-md-0">Link 4</p>
                 </a>
               </div>
               <a class="footer-btn-transparent text-center" href="https://microsoft.com">Github</a>
