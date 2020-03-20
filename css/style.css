@@ -23,15 +23,17 @@
 body {
   background: #FFFFFF;
   padding-top: 53px;
+  
 }
 
 h1 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 42px;
+  font-size: 44px;
   line-height: 48px;
   color: #FFFFFF;
+  letter-spacing: 0.02em;
 }
 h2 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
@@ -40,6 +42,7 @@ h2 {
   font-size: 34px;
   line-height: 34px;
   color: #061058;
+  letter-spacing: 0.02em;
 }
 h3 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
@@ -48,6 +51,7 @@ h3 {
   font-size: 24px;
   line-height: 30px;
   color: #061058;
+  letter-spacing: 0.02em;
 }
 h4 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
@@ -56,6 +60,7 @@ h4 {
   font-size: 18px;
   line-height: 18px;
   color: #061058;
+  letter-spacing: 0.02em;
 }
 h5 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
@@ -64,12 +69,14 @@ h5 {
   font-size: 16px;
   line-height: 18px;
   color: #061058;
+  letter-spacing: 0.02em;
 }
 h6 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
   font-size: 18px;
   line-height: 18px;
   color: #061058;
+  letter-spacing: 0.02em;
 }
 p {
   font-family: 'TT Commons Regular', Arial, sans-serif;
@@ -78,6 +85,7 @@ p {
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
+  letter-spacing: 0.015em;
 }
 li{
   font-family: 'TT Commons Regular', Arial, sans-serif;
@@ -86,6 +94,7 @@ li{
   font-size: 16px;
   line-height: 20px;
   color: #878C97;
+  letter-spacing: 0.015em;
 }
 
 
@@ -117,6 +126,7 @@ li{
 /*NAVBAR*/
 .navbar{
   background-color: white;
+  z-index: 10000;
 }
 .navbar li {
   font-family: 'TT Commons Regular', Arial, sans-serif;
