@@ -2,19 +2,11 @@
 <html lang="en">
 	<head>
 		<!-- Required meta tags -->
-		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-		/>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 		<title>WhiteNoise</title>
 		<!-- Bootstrap CSS -->
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-			crossorigin="anonymous"
-		/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 	</head>
 
@@ -23,22 +15,13 @@
 		<nav class="navbar navbar-expand-lg fixed-top">
 			<div class="container pt-3 pb-3">
 				<img class="img-fluid nav-logo" src="images/Nav-Logo.png" alt="" />
-				<button
-					class="navbar-toggler navbar-light"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarResponsive"
-					aria-controls="navbarResponsive"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
+				<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon icon-bar"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ml-auto text-center">
 						<li class="nav-item active pr-3">
-							<a class="nav-link" href="#differential-privacy"
-								>Differential Privacy
+							<a class="nav-link" href="#differential-privacy">Differential Privacy
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>
@@ -62,7 +45,8 @@
 			<div class="container">
 				<div class="use-data row align-items-center pb-5">
 					<div class="col-sm-12 col-lg-6 order-lg-1 text-centerpx-5">
-						<img class="img-fluid" src="images/Main Graphic.png" alt="" />
+						<!-- <img class="img-fluid" src="images/Main Graphic.png" alt=""/> -->
+						<img class="img-fluid" src="https://via.placeholder.com/1114x702" alt=""/>
 					</div>
 					<div class="col-sm-12 col-lg-6 order-lg-0">
 						<h1 class="text-center text-md-left">
@@ -71,19 +55,11 @@
 						<h3 class="text-center text-md-left light pb-3">
 							A differential privacy toolkit for analytics and machine learning
 						</h3>
-						<p class="text-center text-md-left alpha pb-4">
-							The WhiteNoise project connects powerful theoretical solutions
-							from the research community with the practical lessons learned
-							from real-world applications, to make differential privacy (DP)
-							broadly accessible to production deployments. Users can leverage
-							flexible basic building blocks with implementations based on
-							vetted and mature research:
+						<p class="text-center text-md-left alpha pb-4">The WhiteNoise project connects powerful theoretical solutions from the research community with the practical lessons learned from real-world applications, to make differential privacy (DP) broadly accessible to production deployments. Leverage flexible basic building blocks to deploy in your own environment:
 						</p>
 						<div class="row">
 							<div class="col-sm-12 text-center text-md-left">
-								<a class="masthead-btn text-center" href="#getting-started"
-									>Get Started</a
-								>
+								<a class="masthead-btn text-center" href="#getting-started">Get Started</a>
 							</div>
 						</div>
 						<!-- /.row -->
@@ -93,37 +69,17 @@
 
 				<div class="row text-center justify-content-md-center pb-5">
 					<div class="col-12 col-md-3">
-						<img
-							class="img-fluid mx-auto icons pb-4"
-							src="images/icon-1.png"
-							alt=""
-						/>
-						<p class="alpha">
-							A fast, memory-safe native runtime for generating and validating
-							differentially private results
+						<img class="img-fluid mx-auto icons pb-4" src="images/icon-1.png" alt=""/>
+						<p class="alpha">A fast, memory-safe native runtime for generating and validating differentially private results</p>
+					</div>
+					<div class="col-12 col-md-3">
+						<img class="img-fluid mx-auto icons pb-4" src="images/icon-2.png" alt=""/>
+						<p class="alpha">A data access SDK that provides built-in connection to a variety of data APIs for analytics and ML
 						</p>
 					</div>
 					<div class="col-12 col-md-3">
-						<img
-							class="img-fluid mx-auto icons pb-4"
-							src="images/icon-2.png"
-							alt=""
-						/>
-						<p class="alpha">
-							A data access SDK that provides built-in connection to a variety
-							of data APIs for analytics and ML
-						</p>
-					</div>
-					<div class="col-12 col-md-3">
-						<img
-							class="img-fluid mx-auto icons pb-4"
-							src="images/icon-3.png"
-							alt=""
-						/>
-						<p class="alpha">
-							A stochastic evaluator to automatically test any black-box DP
-							algorithm to look for potential violations of privacy.
-						</p>
+						<img class="img-fluid mx-auto icons pb-4" src="images/icon-3.png" alt=""/>
+						<p class="alpha">A stochastic evaluator to automatically test any black-box DP algorithm to look for potential violations of privacy</p>
 					</div>
 				</div>
 				<!-- /.row -->
@@ -136,61 +92,21 @@
 			<div class="container inner-box">
 				<div class="row justify-content-lg-center">
 					<div class="col-12 col-lg-6 text-center">
-						<h2 class="pb-4 top">Differential Privacy</h2>
-						<p class="medium">
-							Data scientists, analysts, scientific researchers and data-driven
-							policy makers often need to analyze data that contains sensitive
-							personal information that must remain private.
-						</p>
-						<p class="medium">
-							Commonly-used privacy-preserving techniques have been shown to be
-							flawed resulting in reconstruction of private data or leakage of
-							information in some cases.
-						</p>
-						<p class="medium">
-							Differential Privacy is the only approach that offers strong
-							provable privacy assurances, and formal worst-case tracking of
-							information leakage, even when any adversary is assumed to already
-							possess extensive personal information about targets.
-						</p>
-						<a href="https://dl.acm.org/doi/10.1007/11681878_14"
-							><p class="text-link">Learn More</p></a
-						>
+						<h2 class="pb-4 top">What is Differential Privacy?</h2>
+						<p class="medium">Data scientists, analysts, scientific researchers and data-driven policy makers often need to analyze data that contains sensitive personal information that must remain private.</>
+						<p class="medium">Commonly used privacy-preserving techniques have been shown to be flawed resulting in reconstruction of private data or leakage of information in some cases.</p>
+						<p class="medium">Differential Privacy is the only approach that offers strong provable privacy assurances, and formal worst-case tracking of information leakage, even when any adversary is assumed to already possess extensive personal information about targets.</p>
+						<a href="https://dl.acm.org/doi/10.1007/11681878_14"><p class="text-link">Learn More</p></a>
 					</div>
 				</div>
 				<!-- /.row -->
 				<div class="row justify-content-lg-center">
 					<div class="col-sm-12 col-lg-6">
-						<h2 class="pt-4 pb-4 text-center">
-							Theory Behind Differential Privacy
-						</h2>
-						<p class="dark text-center">
-							Differential privacy is a formal mathematical definition; any
-							algorithm that can be proven to meet this definition then inherits
-							formal mathematical guarantees that an individual’s contribution
-							cannot be identified in any output computation. Broadly, DP uses
-							two approaches to achieve these benefits:
-						</p>
-						<li class="img-fluid icon-01 pb-4">
-							A small amount of statistical noise is added to each result,
-							precisely tuned to mask the contributions of any individual.
-						</li>
-						<li class="img-fluid icon-02">
-							The amount of information revealed from each result is calculated
-							and deducted from an overall privacy budget for the dataset,
-							ensuring that accumulated information released will not compromise
-							individual privacy.
-						</li>
-						<a href="https://www.nowpublishers.com/article/Details/TCS-042"
-							><p class="text-link text-center pb-3 text-link">
-								Original DP Paper
-							</p></a
-						>
-						<p class="dark text-center pb-5">
-							These parameters are precisely calibrated by the system to offer
-							strong assurances against reidentification, record reconstruction
-							and membership attacks.
-						</p>
+						<h2 class="pt-4 pb-4 text-center">Theory Behind Differential Privacy</h2>
+						<p class="dark text-center">Differential privacy is a formal mathematical definition; any algorithm that can be proven to meet this definition then inherits formal mathematical guarantees that an individual’s contribution cannot be identified in any output computation. Broadly, DP uses two approaches to achieve these benefits:</p>
+						<li class="img-fluid icon-01 pb-4">A small amount of statistical noise is added to each result, precisely tuned to mask the contributions of any individual.</li>
+						<li class="img-fluid icon-02">The amount of information revealed from each result is calculated and deducted from an overall privacy budget for the dataset, ensuring that accumulated information released will not compromise individual privacy.</li>
+						<a href="https://www.nowpublishers.com/article/Details/TCS-042"><p class="text-link text-center  pb-5 pb-5 text-link">Original DP Paper</p></a>
 					</div>
 				</div>
 				<!-- /.row -->
@@ -204,53 +120,29 @@
 				<div class="row justify-content-lg-center">
 					<div class="col-12 col-lg-6 text-center">
 						<h2 class="pb-3 top">WhiteNoise</h2>
-						<p class="dark pb-4">
-							The WhiteNoise system is designed to be a layer situated between
-							user queries and data systems. When a user queries the data (or
-							trains a model), the WhiteNoise system
-						</p>
+						<p class="dark pb-4">WhiteNoise is designed to be a layer situated between queries and data systems.  When a user queries the data (or trains a model), the WhiteNoise system:</p>
 					</div>
 				</div>
 				<div class="row justify-content-lg-center">
 					<div class="col-4 col-lg-2">
-						<img
-							class="img-fluid mx-auto white-noise-icons mb-4"
-							src="images/white-noise-icon-1.png"
-							alt=""
-						/>
+						<img class="img-fluid mx-auto white-noise-icons mb-4" src="images/white-noise-icon-1.png" alt=""/>
 						<h5 class="text-center px-3">
 							Adds the statistical noise to the resulting queries,
 						</h5>
 					</div>
 					<div class="col-4 col-lg-2">
-						<img
-							class="img-fluid mx-auto white-noise-icons mb-4"
-							src="images/white-noise-icon-2.png"
-							alt=""
-						/>
-						<h5 class="text-center px-3">
-							Calculates the information budget used by the query,
-						</h5>
+						<img class="img-fluid mx-auto white-noise-icons mb-4" src="images/white-noise-icon-2.png" alt=""/>
+						<h5 class="text-center px-3">Calculates the information budget used by the query,</h5>
 					</div>
 					<div class="col-4 col-lg-2 pb-4">
-						<img
-							class="img-fluid mx-auto white-noise-icons mb-4"
-							src="images/white-noise-icon-3.png"
-							alt=""
-						/>
-						<h5 class="text-center px-3">
-							And subtracts from the remaining budget.
-						</h5>
+						<img class="img-fluid mx-auto white-noise-icons mb-4" src="images/white-noise-icon-3.png" alt=""/>
+						<h5 class="text-center px-3">And subtracts from the remaining budget.</h5>
 					</div>
 				</div>
 				<div class="row justify-content-lg-center">
 					<div class="col-12 col-lg-6 text-center">
-						<p class="dark pb-5">
-							The system is composed of flexible basic building blocks designed
-							to easily plug into many production data environments.
-							Implementations are based on vetted and mature differential
-							privacy research and practice.
-						</p>
+						<p class="dark">WhiteNoise is composed of flexible basic building blocks designed to easily plug into many production data environments. Implementations are based on vetted and mature differential privacy research and practice.</p>
+						<p class="dark pb-5">To help accelerate the advancement of differential privacy research, we also provide a pluggable open source framework that researchers can use to build and test new mechanisms and algorithms.</p>
 					</div>
 				</div>
 				<!-- /.row -->
@@ -263,63 +155,25 @@
 			<div class="container">
 				<div class="row justify-content-lg-center">
 					<div class="col-md-4 pb-5">
-						<img
-							class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4"
-							src="images/icon-6.png"
-							alt=""
-						/>
-						<h4 class="text-center text-lg-left light pb-3">
-							Native Runtime Library
-						</h4>
-						<p class="text-center text-lg-left">
-							Native implementation of several mature differential privacy
-							mechanisms and algorithms, suitable for consumption from software
-							written in C, C++, Python, R, and other languages.
-						</p>
+						<img class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4" src="images/icon-6.png" alt=""/>
+						<h4 class="text-center text-lg-left light pb-3">Native Runtime Library</h4>
+						<p class="text-center text-lg-left">Native implementation of several mature differential privacy mechanisms and algorithms, suitable for consumption from software written in C, C++, Python, R, and other languages.</p>
 					</div>
 					<div class="col-md-4 pb-5">
-						<img
-							class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4"
-							src="images/icon-7.png"
-							alt=""
-						/>
+						<img class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4" src="images/icon-7.png" alt=""/>
 						<h4 class="text-center text-lg-left light pb-3">Data Access SDK</h4>
-						<p class="text-center text-lg-left">
-							Data access layer supporting differentially private SQL against
-							various engines, including Spark, SQL Server, Postgres, Presto,
-							and CSV files
-						</p>
+						<p class="text-center text-lg-left">Data access layer supporting differentially private SQL against various engines, including Spark, SQL Server, Postgres, Presto, and CSV files</p>
 					</div>
 					<div class="w-100"></div>
 					<div class="col-md-4 pb-5">
-						<img
-							class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4"
-							src="images/icon-8.png"
-							alt=""
-						/>
-						<h4 class="text-center text-lg-left light pb-3">
-							Execution Service
-						</h4>
-						<p class="text-center text-lg-left">
-							A reference implementation of an asynchronous service that can
-							compose multiple different types of request over the same data
-							source, while tracking total privacy spend.
-						</p>
+						<img class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4" src="images/icon-8.png" alt=""/>
+						<h4 class="text-center text-lg-left light pb-3">Execution Service</h4>
+						<p class="text-center text-lg-left">A reference implementation of an asynchronous service that can compose multiple different types of request over the same data source, while tracking total privacy loss.</p>
 					</div>
 					<div class="col-md-4 pb-5">
-						<img
-							class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4"
-							src="images/icon-9.png"
-							alt=""
-						/>
-						<h4 class="text-center text-lg-left light pb-3">
-							Stochastic Evaluator
-						</h4>
-						<p class="text-center text-lg-left">
-							A testing harness that can stress-test any prospective
-							differential privacy algorithm as a “black box” and find
-							violations of privacy.
-						</p>
+						<img class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4" src="images/icon-9.png" alt=""/>
+						<h4 class="text-center text-lg-left light pb-3">Stochastic Evaluator</h4>
+						<p class="text-center text-lg-left">A testing harness that can stress-test any prospective differential privacy algorithm as a “black box” and find violations of privacy.</p>
 					</div>
 				</div>
 				<!-- /.row -->
@@ -338,65 +192,27 @@
 
 				<div class="row justify-content-lg-center preserving-privacy-1">
 					<div class="col-sm-6 col-lg-5 order-sm-2">
-						<img
-							class="img-fluid mx-auto preserving-privacy-icon"
-							src="images/interactive-visualization-dashboard-icon.png"
-							alt=""
-						/>
+						<img class="img-fluid mx-auto preserving-privacy-icon" src="images/interactive-visualization-dashboard-icon.png" alt=""/>
 					</div>
 					<div class="col-sm-6 col-lg-5 align-self-center order-sm-1">
-						<h3 class="text-center text-lg-left pb-2">
-							Differentially-Private Analytics
-						</h3>
-						<p class="dark">
-							Support for many analytics applications including OLAP, BI, and
-							Data ScienceSupport for many analytics applications including
-							OLAP, BI, and Data Science
-						</p>
-						<li class="img-fluid check-icon pb-3">
-							Differentially private SQL built for various engines, including
-							Spark, SQL Server, Postgres, Presto, and CSV files
-						</li>
-						<li class="img-fluid check-icon pb-4">
-							Support for many commonly used mathematical operators including
-							Gaussian, Laplace, and Geometric algorithms, and common statistics
-							such as Count, Sum, Mean, Covariance.
-						</li>
-						<a class="masthead-btn text-center" href="https://github.com"
-							>Examples</a
-						>
+						<h3 class="text-center text-lg-left pb-2">Differentially-Private Analytics</h3>
+						<p class="dark">Support for many analytics applications including OLAP, BI, and Data Science</p>
+						<li class="img-fluid check-icon pb-3">Differentially private SQL built for various engines, including Spark, SQL Server, Postgres, Presto, and CSV files</li>
+						<li class="img-fluid check-icon pb-4">Support for many commonly used mathematical operators including Gaussian, Laplace, and Geometric algorithms, and common statistics such as Count, Sum, Mean, Covariance.</li>
+						<a class="masthead-btn text-center" href="https://github.com">Examples</a>
 					</div>
 				</div>
 
 				<div class="row justify-content-lg-center preserving-privacy-2">
 					<div class="col-sm-6 col-lg-5">
-						<img
-							class="img-fluid mx-auto preserving-privacy-icon"
-							src="images/interactive-visualization-dashboard-icon.png"
-							alt=""
-						/>
+						<img class="img-fluid mx-auto preserving-privacy-icon" src="images/interactive-visualization-dashboard-icon.png" alt=""/>
 					</div>
 					<div class="col-sm-6 col-lg-5 align-self-center">
-						<h3 class="text-center text-lg-left">
-							Differentially-Private Machine Learning
-						</h3>
-						<p class="dark">
-							Support for training differentially-private machine learning
-							models
-						</p>
-						<li class="img-fluid check-icon pb-3">
-							Example Integrations with Azure Machine Learning and ML Flow to
-							demonstrate how to use differential privacy in the machine
-							learning process
-						</li>
-						<li class="img-fluid check-icon pb-4">
-							Built-in support for training simple machine learning models such
-							as linear and logistic regression and compatible with open-source
-							training libraries such TensorFlow Privacy
-						</li>
-						<a class="masthead-btn text-center" href="https://github.com"
-							>Examples</a
-						>
+						<h3 class="text-center text-lg-left">Differentially-Private Machine Learning</h3>
+						<p class="dark">Support for training differentially-private machine learning models</p>
+						<li class="img-fluid check-icon pb-3">Example Integrations with Azure Machine Learning and ML Flow to demonstrate how to use differential privacy in the machine learning process</li>
+						<li class="img-fluid check-icon pb-4">Built-in support for training simple machine learning models such as linear and logistic regression and compatible with open-source training libraries such TensorFlow Privacy</li>
+						<a class="masthead-btn text-center" href="https://github.com">Examples</a>
 					</div>
 				</div>
 				<!-- /.row -->
@@ -410,14 +226,8 @@
 				<div class="row justify-content-lg-center">
 					<div class="col-sm-12 col-lg-4 text-center">
 						<h1 class="pb-3">Getting Started</h1>
-						<p class="pb-3">
-							Differential privacy is a rapidly evolving area so expect frequent
-							updates as we learn and grow the WhiteNoise project as a
-							community. Feedback is appreciated!
-						</p>
-						<a class="getting-started-btn" href="https://github.com"
-							>Install WhiteNoise</a
-						>
+						<p class="pb-3">Differential privacy is a rapidly evolving area so expect frequent updates as we learn and grow the WhiteNoise project as a community. Feedback is appreciated!</p>
+						<a class="getting-started-btn" href="https://github.com">Install WhiteNoise</a>
 					</div>
 				</div>
 				<!-- /.row -->
@@ -431,28 +241,11 @@
 				<div class="row justify-content-lg-center">
 					<div class="col-sm-12 col-lg-6 text-center">
 						<h2 class="pb-4">Contribute to WhiteNoise</h2>
-						<p class="dark pb-3">
-							WhiteNoise is a community-driven open source toolkit that is built
-							on differential privacy research’s best practices and principles
-							to enable everyone to leverage state-of-the-art differential
-							privacy techniques to enable privacy-preserving data use in real
-							applications.
-						</p>
-						<img
-							class="img-fluid mx-auto contribute-white-noise-icon mb-4"
-							src="images/contribute-white-noise-icon.png"
-							alt=""
-						/>
+						<p class="dark pb-3">WhiteNoise is a community-driven open source toolkit that is built on differential privacy research’s best practices and principles to enable everyone to leverage state-of-the-art differential privacy techniques.</p>
+						<img class="img-fluid mx-auto contribute-white-noise-icon mb-4" src="images/contribute-white-noise-icon.png" alt=""/>
 						<h4 class="pb-3">Research Community</h4>
-						<p class="dark pb-3">
-							WhiteNoise is designed for the research community to contribute
-							new differential privacy algorithms, mechanisms and
-							user-interfaces to experiment, learn and evolve state-of-the-art
-							of privacy (and the toolkit) together.
-						</p>
-						<a class="contribute-white-noise-btn" href="https://github.com"
-							>Install WhiteNoise</a
-						>
+						<p class="dark pb-3">WhiteNoise is designed for the research community to contribute new differential privacy algorithms, mechanisms and user interfaces to experiment, learn and evolve state-of-the-art of privacy (and the toolkit) together.</p>
+						<a class="contribute-white-noise-btn" href="https://github.com">GitHub</a>
 					</div>
 				</div>
 			</div>
@@ -464,51 +257,29 @@
 				<div class="row justify-content-lg-center">
 					<div class="col-12 col-lg-6 text-center">
 						<h4 class="light">Support</h4>
-						<p>
-							We would like to acknowledge the support of the Sloan Foundation,
-							US Census Bureau, National Science Foundation, and Simons
-							Foundation in this project.
-						</p>
+						<p>We would like to acknowledge the support of the Sloan Foundation, US Census Bureau, National Science Foundation, and Simons Foundation in this project.</p>
 					</div>
 				</div>
 				<div class="row pt-lg-5">
 					<div
-						class="col-sm-12 col-md-2 d-flex align-items-center justify-content-md-start flex-column flex-md-row pt-4"
-					>
-						<img
-							class="img-fluid mx-auto footer-logo"
-							src="images/Footer-Logo.png"
-							alt=""
-						/>
+						class="col-sm-12 col-md-2 d-flex align-items-center justify-content-md-start flex-column flex-md-row pt-4">
+						<img class="img-fluid mx-auto footer-logo" src="images/Footer-Logo.png" alt=""/>
 					</div>
 					<div
-						class="col-sm-12 col-md-10 d-flex align-items-center justify-content-md-end flex-column flex-md-row"
-					>
+						class="col-sm-12 col-md-10 d-flex align-items-center justify-content-md-end flex-column flex-md-row">
 						<div class="mr-md-4">
-							<a class="nav-link" href="https://microsoft.com">
-								<p class="mb-md-0">Link 1</p>
-							</a>
+							<a class="nav-link" href="https://microsoft.com"><p class="mb-md-0">Link 1</p></a>
 						</div>
 						<div class="mr-md-4">
-							<a class="nav-link" href="https://microsoft.com">
-								<p class="mb-md-0">Link 2</p>
-							</a>
+							<a class="nav-link" href="https://microsoft.com"><p class="mb-md-0">Link 2</p></a>
 						</div>
 						<div class="mr-md-4">
-							<a class="nav-link" href="https://microsoft.com">
-								<p class="mb-md-0">Link 3</p>
-							</a>
+							<a class="nav-link" href="https://microsoft.com"><p class="mb-md-0">Link 3</p></a>
 						</div>
 						<div class="mr-md-4">
-							<a class="nav-link" href="https://microsoft.com">
-								<p class="mb-md-0">Link 4</p>
-							</a>
+							<a class="nav-link" href="https://microsoft.com"><p class="mb-md-0">Link 4</p></a>
 						</div>
-						<a
-							class="footer-btn-transparent text-center"
-							href="https://github.com"
-							>Github</a
-						>
+						<a class="footer-btn-transparent text-center" href="https://github.com">Github</a>
 					</div>
 				</div>
 			</div>
@@ -516,20 +287,8 @@
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-			crossorigin="anonymous"
-		></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</body>
 </html>
