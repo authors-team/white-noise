@@ -216,6 +216,18 @@ li{
 .header-card-container{
   margin-top: -90px;
 }
+.purple-card {
+  background: linear-gradient(298.74deg, #4D11FC 0%, #7D50FF 100%);
+}
+.icon-light{
+  display: none !important;
+}
+.show-me{
+  display: block !important;
+}
+.hide-me{
+  display: none !important;
+}
 
 
 /*DIFFERENTIAL PRIVACY*/
