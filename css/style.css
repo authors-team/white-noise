@@ -183,7 +183,7 @@ li{
   padding-bottom: 140px;
 }
 .use-data {
-  padding-top: 175px;
+  padding-top: 50px;
 }
 .icons{
   width: 50px;
@@ -253,7 +253,7 @@ margin-bottom: 1em;
 }
 .white-noise-icon{
   display: block;
-  width: 164px;
+  width: 106px;
   height: auto;
 }
 .card{
@@ -294,7 +294,7 @@ margin-bottom: 1em;
 }
 .preserving-privacy-icon{
   display: block;
-  width: 340px;
+  width: 523px;
   height: auto;
   box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.1);
 }
@@ -328,9 +328,9 @@ padding-bottom: 110px;
 }
 
 .section-6{
-        position: relative;
-      z-index: 5000;
-      margin-top: -220px;
+  position: relative;
+  z-index: 5000;
+  margin-top: -220px;
   padding-top: 115px;
   padding-bottom: 110px;
 }
@@ -346,13 +346,6 @@ padding-bottom: 110px;
   background-color: white;
   border-radius: 4.51422px;
 }
-
-
-.section-7 .logo-4, .logo-5, .logo-6, .logo-7 {
-  display: none;
-}
-
-
 
 /*FOOTER*/
 .gradient-footer{
@@ -393,6 +386,10 @@ background: linear-gradient(20deg, #3F3F3F 0%, #101010 100%);
   height: auto;
   padding-bottom: 25px;
 }
+.footer p {
+  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-size: 14px;
+}
 
 @media only screen and (min-width: 768px) {
   .card{
@@ -414,6 +411,18 @@ background: linear-gradient(20deg, #3F3F3F 0%, #101010 100%);
   }
   .section-7 .logo-4, .logo-5, .logo-6, .logo-7 {
     display: block;
+  }
+  .white-noise-icon{
+    display: block;
+    width: 164px;
+    height: auto;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  .use-data {
+    padding-top: 130px;
   }
 }
 
