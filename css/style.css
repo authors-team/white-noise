@@ -116,7 +116,7 @@ li{
 
 /*UNIVERSAL*/
 .dark {
-  color: #878C97;
+  color: #626262;
 }
 .medium{
   color:#878C97;
@@ -195,6 +195,10 @@ li{
 .nav-logo{
   width: 166px;
   height: auto;
+}
+.navbar .nav-link:hover{
+    text-decoration: underline;
+    color: #7D50FF;
 }
 
 
@@ -431,6 +435,10 @@ background: linear-gradient(20deg, #3F3F3F 0%, #101010 100%);
 .footer p {
   font-family: 'TT Commons Regular', Arial, sans-serif;
   font-size: 14px;
+}
+.footer .nav-link:hover{
+    text-decoration: underline;
+    color: white;
 }
 
 
