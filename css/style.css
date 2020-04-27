@@ -119,9 +119,12 @@ li{
   color: #212B36;
 }
 .medium{
-  color:#878C97;
+  color: #5B5B5B;
 }
 .light{
+  color: #c4c4c4;
+}
+.white{
   color: #FFFFFF;
 }
 .alpha {
@@ -349,7 +352,7 @@ margin-bottom: 1em;
   color: red;
 }
 li.check-icon {
-color: #878C97;
+color: #5B5B5B;
 background: url('../images/check-icon.png') no-repeat  0 5px;
 background-size: 13px 10px;
 padding-left: 25px;

@@ -5,13 +5,15 @@ $(document).ready(function() {
   $( ".header-card" ).hover(
     function() {
       $(this).addClass('purple-card').css('cursor', 'pointer'); 
-      $(".card-text", this).addClass('light');
+      $(".card-text", this).addClass('white');
+      $(".card-text", this).addClass('alpha');
       $(".icon-dark", this).addClass('hide-me');
       $(".icon-light", this).addClass('show-me');
       // $(this).find(".header-card .card-text").addClass('light'); 
     }, function() {
       $(this).removeClass('purple-card');
-      $(".card-text", this).removeClass('light');
+      $(".card-text", this).removeClass('white');
+      $(".card-text", this).removeClass('alpha');
       $(".icon-dark", this).removeClass('hide-me');
       $(".icon-light", this).removeClass('show-me');
     }
@@ -23,12 +25,14 @@ $(document).ready(function() {
       $(".card-text", this).addClass('dark');
       $(".icon-purple", this).addClass('show-me');
       $(".icon-white", this).addClass('hide-me');
+      $(".card-bullet", this).addClass('medium');
       // $(this).find(".header-card .card-text").addClass('light'); 
     }, function() {
       $(this).removeClass('white-card');
       $(".card-text", this).removeClass('dark');
       $(".icon-purple", this).removeClass('show-me');
       $(".icon-white", this).removeClass('hide-me');
+      $(".card-bullet", this).removeClass('medium');
     }
   );
   
