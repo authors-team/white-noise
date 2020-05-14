@@ -444,7 +444,7 @@ background: linear-gradient(20deg, #3F3F3F 0%, #101010 100%);
 }
 .footer-btn-transparent{
   font-family: 'TT Commons Medium', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   display: inline-block;
   color: #FFFFFF;
   background-color: transparent;
@@ -462,7 +462,7 @@ background: linear-gradient(20deg, #3F3F3F 0%, #101010 100%);
 }
 .footer p {
   font-family: 'TT Commons Regular', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 .footer .copyright{
   font-family: 'TT Commons Regular', Arial, sans-serif;
