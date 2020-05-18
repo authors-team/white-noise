@@ -35,6 +35,17 @@ $(document).ready(function() {
       $(".card-bullet", this).removeClass('medium');
     }
   );
+
+
+    $(document).click(
+        function (event) {
+            var target = $(event.target);
+            var _mobileMenuOpen = $(".navbar-collapse").hasClass("show");
+            if (_mobileMenuOpen === true && !target.hasClass("navbar-toggler")) {
+                $("button.navbar-toggler").click();
+            }
+        }
+    );
   
 // document ready  
 });
